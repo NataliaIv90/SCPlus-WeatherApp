@@ -43,7 +43,8 @@ h2:hover {
   background: radial-gradient(
     592px at 48.2% 50%,
     rgba(255, 255, 249, 0.6) 0%,
-    rgb(160, 199, 254) 74.6%);
+    rgb(160, 199, 254) 74.6%
+  );
 }
 
 .weather-icon {
@@ -118,8 +119,9 @@ h2:hover {
 
 .weather-icon:hover,
 .future-weather:hover,
-#input-location:hover{
+#input-location:hover {
   border: 1px solid #17a2b8;
+  box-shadow: 5px 5px 10px rgba(131, 131, 131, 0.3);
 }
 
 #current-weather-top {
