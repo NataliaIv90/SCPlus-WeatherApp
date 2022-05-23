@@ -17,10 +17,7 @@ h1 {
   font-weight: 400;
   text-align: center;
 }
-h1:hover,
-h2:hover {
-  font-weight: bolder;
-}
+
 h2 {
   margin: 0;
   text-align: center;
@@ -28,6 +25,11 @@ h2 {
   font-weight: 400;
   font-style: italic;
   padding: 0;
+}
+
+h1:hover,
+h2:hover {
+  font-weight: bolder;
 }
 
 .plain-border {
@@ -41,9 +43,9 @@ h2 {
   background: radial-gradient(
     592px at 48.2% 50%,
     rgba(255, 255, 249, 0.6) 0%,
-    rgb(160, 199, 254) 74.6%
-  );
+    rgb(160, 199, 254) 74.6%);
 }
+
 .weather-icon {
   width: 90%;
   padding: 2px;
@@ -66,18 +68,6 @@ h2 {
 .search-bar {
   margin: 0;
   padding: 0;
-}
-
-#search-bar-wrap {
-  margin: 15px 0px 10px 1px;
-  padding: 0px;
-}
-
-#weather-forecast-wrapper {
-  margin-bottom: 15px;
-  margin-top: 15px;
-  padding-left: 14px;
-  padding-right: 15px;
 }
 
 .current-weather-font {
@@ -107,6 +97,18 @@ h2 {
   cursor: pointer;
 }
 
+#search-bar-wrap {
+  margin: 15px 0px 10px 1px;
+  padding: 0px;
+}
+
+#weather-forecast-wrapper {
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-left: 14px;
+  padding-right: 15px;
+}
+
 #input-location {
   width: 300px;
   line-height: 30px;
@@ -114,9 +116,9 @@ h2 {
   transition: all 150ms ease-in-out;
 }
 
-#input-location:hover,
 .weather-icon:hover,
-.future-weather:hover {
+.future-weather:hover,
+#input-location:hover{
   border: 1px solid #17a2b8;
 }
 
